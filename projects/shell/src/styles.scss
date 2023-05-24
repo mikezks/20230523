@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+body, .main-panel {
+  height: 100%;
+}
+
+.content {
+  height: calc(100% - 93px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
